@@ -9,7 +9,7 @@ The analysis follows a complete data analytics workflow: data cleaning, SQL-base
 
 ## Dataset
 -  [matches.csv](matches.csv) — 1,095 matches (2008-2024)
-- **deliveries.csv** — 260,920 ball-by-ball records
+-  [deliveries.csv](deliveries.csv) — 260,920 ball-by-ball records
 - **Source:** [IPL Complete Dataset (Kaggle)](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
 
 ---
@@ -77,10 +77,9 @@ ipl-data-analysis/
 
 ## How to Run
 1. Clone this repository
-2. Open 
-in Jupyter Notebook
-3. Run all cells (`matches.csv` and `deliveries.csv` should be in the same folder)
-4. SQL queries can also be run independently using `ipl_analysis.sql`
+2. Open  [ipl_analysis.ipynb](ipl_analysis.ipynb) in Jupyter Notebook
+3. Run all cells ([matches.csv](matches.csv) and [deliveries.csv](deliveries.csv) should be in the same folder)
+4. SQL queries can also be run independently using [ipl_analysis.sql](ipl_analysis.sql)
 
 ---
 
