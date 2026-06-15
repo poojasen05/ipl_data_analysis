@@ -47,7 +47,7 @@ The Dr. Y.S. Rajasekhara Reddy ACA-VDCA Stadium recorded the highest average cha
 
 ---
 
----
+
 ## Viszualization
 
 ### Top 10 Teams by Total Wins
@@ -55,9 +55,11 @@ The Dr. Y.S. Rajasekhara Reddy ACA-VDCA Stadium recorded the highest average cha
 
 ### Average Runs Per Match by Season
 <img width="1800" height="750" alt="chart_season_runs_trend" src="https://github.com/user-attachments/assets/70038cff-62e6-47c3-bc76-8645daf2ab3c" />
-<img width="2100" height="900" alt="chart_bat_vs_field_season" src="https://github.com/user-attachments/assets/035fa9f4-5590-4819-942d-f3d23ab1fa30" />
 
 ### Win % by Toss Decision per Season
+<img width="2100" height="900" alt="chart_bat_vs_field_season" src="https://github.com/user-attachments/assets/035fa9f4-5590-4819-942d-f3d23ab1fa30" />
+
+### Does Winning Toss Helps
 <img width="900" height="900" alt="toss_winning" src="https://github.com/user-attachments/assets/b710d465-124c-4c4d-8547-0bee28b61490" />
 
 
