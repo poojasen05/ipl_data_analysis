@@ -47,20 +47,28 @@ The Dr. Y.S. Rajasekhara Reddy ACA-VDCA Stadium recorded the highest average cha
 
 ---
 
+---
+## Viszualization
+
+### Top 10 Teams by Total Wins
+<img width="1500" height="900" alt="top_score" src="https://github.com/user-attachments/assets/b3d35ea3-18bb-4bdd-850e-a4296ff7be54" />
+
+### Average Runs Per Match by Season
+<img width="1800" height="750" alt="chart_season_runs_trend" src="https://github.com/user-attachments/assets/70038cff-62e6-47c3-bc76-8645daf2ab3c" />
+<img width="2100" height="900" alt="chart_bat_vs_field_season" src="https://github.com/user-attachments/assets/035fa9f4-5590-4819-942d-f3d23ab1fa30" />
+
+### Win % by Toss Decision per Season
+<img width="900" height="900" alt="toss_winning" src="https://github.com/user-attachments/assets/b710d465-124c-4c4d-8547-0bee28b61490" />
+
+
+---
+
 ## Conclusion
 This analysis of 260,000+ ball-by-ball records across 16 IPL seasons shows that consistency, not single-season brilliance, drives franchise success — Mumbai Indians' 144 wins and CSK's 138 reflect sustained squad stability. Tactically, fielding first is the clear winning strategy, with chasing teams winning 68% of toss-aligned matches, confirming the modern T20 shift toward setting a target. At the player level, Kohli's 8,014 runs and Chahal's 205 wickets highlight rare multi-season excellence, while the near-zero overlap between death-over and powerplay wicket-takers proves bowling talent must be valued by match phase. Most notably, scoring has surged 17% since 2017 (315 to 365.79 avg runs/match by 2024), driven by the Impact Player rule and flatter pitches — meaning franchises must now prioritize death-over bowling depth and phase-specific specialists to stay competitive.
 
 ---
 
----
-## Viszualization
-<img width="1500" height="900" alt="top_score" src="https://github.com/user-attachments/assets/b3d35ea3-18bb-4bdd-850e-a4296ff7be54" />
-<img width="1800" height="750" alt="chart_season_runs_trend" src="https://github.com/user-attachments/assets/70038cff-62e6-47c3-bc76-8645daf2ab3c" />
-<img width="2100" height="900" alt="chart_bat_vs_field_season" src="https://github.com/user-attachments/assets/035fa9f4-5590-4819-942d-f3d23ab1fa30" />
-<img width="900" height="900" alt="toss_winning" src="https://github.com/user-attachments/assets/b710d465-124c-4c4d-8547-0bee28b61490" />
 
-
----
 
 ## Tools Used
 - **Python** — pandas, matplotlib, seaborn
