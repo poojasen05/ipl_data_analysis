@@ -63,11 +63,11 @@ This analysis of 260,000+ ball-by-ball records across 16 IPL seasons shows that 
 ```
 ipl_data_analysis/
 │
-├──  [ipl_analysis.ipynb](ipl_analysis.ipynb)    # Full analysis notebook (cleaning, SQL, EDA, charts, insights)
-├──  [ipl_analysis.sql](ipl_analysis.sql)         # Standalone SQL queries with insights
-├──   [matches.csv](matches.csv)             # Cleaned match-level data (1,095 rows)
-├──    [deliveries.csv](deliveries.csv)        # Cleaned ball-by-ball data (260,920 rows)
-├── chart1_team_wins.png       # Top 10 teams by total wins
+├── ipl_analysis.ipynb       # Full analysis notebook
+├── ipl_analysis.sql         # Standalone SQL queries with insights
+├── matches.csv              # Cleaned match-level data (1,095 rows)
+├── deliveries.csv           # Cleaned ball-by-ball data (260,920 rows)
+├── chart1_team_wins.png     # Top 10 teams by total wins
 ├── chart_bat_vs_field_season.png   # Win % by toss decision per season
 ├── chart_season_runs_trend.png     # Average runs per match by season
 └── README.md
