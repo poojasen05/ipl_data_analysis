@@ -52,6 +52,16 @@ This analysis of 260,000+ ball-by-ball records across 16 IPL seasons shows that 
 
 ---
 
+---
+## Viszualization
+<img width="1500" height="900" alt="top_score" src="https://github.com/user-attachments/assets/b3d35ea3-18bb-4bdd-850e-a4296ff7be54" />
+<img width="1800" height="750" alt="chart_season_runs_trend" src="https://github.com/user-attachments/assets/70038cff-62e6-47c3-bc76-8645daf2ab3c" />
+<img width="2100" height="900" alt="chart_bat_vs_field_season" src="https://github.com/user-attachments/assets/035fa9f4-5590-4819-942d-f3d23ab1fa30" />
+<img width="900" height="900" alt="toss_winning" src="https://github.com/user-attachments/assets/b710d465-124c-4c4d-8547-0bee28b61490" />
+
+
+---
+
 ## Tools Used
 - **Python** — pandas, matplotlib, seaborn
 - **SQL** — SQLite (via Python, using `pd.read_sql_query`)
