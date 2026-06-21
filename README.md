@@ -3,7 +3,7 @@
 ## Overview
 This project analyzes 260,920 ball-by-ball records and 1,095 matches from the Indian Premier League (2008-2024) using **SQL** and **Python** to uncover insights about team performance, toss strategy, player rankings, and how the game has evolved over 16 seasons.
 
-The analysis follows a complete data analytics workflow: data cleaning, SQL-based querying, exploratory data analysis (EDA), visualization, and business insight generation.
+The analysis follows a complete data analytics workflow: data cleaning, SQL-based querying, exploratory data analysis (EDA), visualization, and business insight generation. An interactive **Power BI dashboard** was also built on top of the same dataset.
 
 ---
 
@@ -47,8 +47,7 @@ The Dr. Y.S. Rajasekhara Reddy ACA-VDCA Stadium recorded the highest average cha
 
 ---
 
-
-## Viszualization
+## Visualization
 
 ### Top 10 Teams by Total Wins
 <img width="1500" height="900" alt="top_score" src="https://github.com/user-attachments/assets/b3d35ea3-18bb-4bdd-850e-a4296ff7be54" />
@@ -59,9 +58,17 @@ The Dr. Y.S. Rajasekhara Reddy ACA-VDCA Stadium recorded the highest average cha
 ### Win % by Toss Decision per Season
 <img width="2100" height="900" alt="chart_bat_vs_field_season" src="https://github.com/user-attachments/assets/035fa9f4-5590-4819-942d-f3d23ab1fa30" />
 
-### Does Winning Toss Helps
+### Does Winning Toss Help
 <img width="900" height="900" alt="toss_winning" src="https://github.com/user-attachments/assets/b710d465-124c-4c4d-8547-0bee28b61490" />
 
+---
+
+## Power BI Dashboard
+An interactive Power BI dashboard built on the same dataset, covering team-wise total wins, toss decision impact (bat vs field win rate), season-wise average runs per match, and top batters and bowlers — all in a single-view dashboard.
+
+<img width="958" height="535" alt="Power BI Dashboard" src="https://github.com/user-attachments/assets/096e8406-332c-4e18-ab9e-fcd380ed4bd2" />
+
+*Power BI source file: `IPL_ANALYSIS.pbix`*
 
 ---
 
@@ -70,12 +77,11 @@ This analysis of 260,000+ ball-by-ball records across 16 IPL seasons shows that 
 
 ---
 
-
-
 ## Tools Used
 - **Python** — pandas, matplotlib, seaborn
 - **SQL** — SQLite (via Python, using `pd.read_sql_query`)
 - **Jupyter Notebook** — for analysis and visualization
+- **Power BI** — for the interactive dashboard
 
 ---
 
@@ -83,13 +89,15 @@ This analysis of 260,000+ ball-by-ball records across 16 IPL seasons shows that 
 ```
 ipl_data_analysis/
 │
-├── ipl_analysis.ipynb       # Full analysis notebook
-├── ipl_analysis.sql         # Standalone SQL queries with insights
+├── IPL_ANALYSIS.ipynb       # Full analysis notebook
+├── IPL_ANALYSIS.sql         # Standalone SQL queries with insights
 ├── matches.csv              # Cleaned match-level data (1,095 rows)
 ├── deliveries.csv           # Cleaned ball-by-ball data (260,920 rows)
-├── chart1_team_wins.png     # Top 10 teams by total wins
+├── top_score.png            # Top 10 teams by total wins
 ├── chart_bat_vs_field_season.png   # Win % by toss decision per season
 ├── chart_season_runs_trend.png     # Average runs per match by season
+├── toss_winning.png         # Does winning toss help — chart
+├── ipl_dashboard.pbix       # Power BI dashboard source file
 └── README.md
 ```
 
@@ -97,17 +105,12 @@ ipl_data_analysis/
 
 ## How to Run
 1. Clone this repository
-2. Open  [ipl_analysis.ipynb](ipl_analysis.ipynb) in Jupyter Notebook
+2. Open  [IPL_ANALYSIS.ipynb](IPL_ANALYSIS.ipynb) in Jupyter Notebook
 3. Run all cells ([matches.csv](matches.csv) and [deliveries.csv](deliveries.csv) should be in the same folder)
-4. SQL queries can also be run independently using [ipl_analysis.sql](ipl_analysis.sql)
+4. SQL queries can also be run independently using [IPL_ANALYSIS.sql](IPL_ANALYSIS.sql)
+5. To explore the dashboard, open `ipl_dashboard.pbix` in Power BI Desktop (free download from Microsoft)
 
 ---
-
-## Powerbi
-<img width="958" height="535" alt="image" src="https://github.com/user-attachments/assets/096e8406-332c-4e18-ab9e-fcd380ed4bd2" />
-
----
-
 
 ## Author
 Pooja Sen
