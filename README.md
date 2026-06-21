@@ -103,5 +103,11 @@ ipl_data_analysis/
 
 ---
 
+## Powerbi
+<img width="958" height="535" alt="image" src="https://github.com/user-attachments/assets/096e8406-332c-4e18-ab9e-fcd380ed4bd2" />
+
+---
+
+
 ## Author
 Pooja Sen
